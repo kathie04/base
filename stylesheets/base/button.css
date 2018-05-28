@@ -1,0 +1,26 @@
+.button {
+	width: 140px;
+	height: 40px;
+	color: #ffffff;
+	background-color: #0f7e96;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	font-family: "Arial";
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 11px;
+}
+
+.button:hover {
+	background-color: #024f60;
+	color: #ffffff;
+}
+
+.button:focus {
+	background-color: #024f60;
+	outline: none;
+}

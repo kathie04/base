@@ -1,0 +1,54 @@
+label {
+	display: block;
+	font-size: 16px;
+}
+
+input[type=text], input[type=password], input[type=url], input[type=email], input[type=tel],
+input[type=search], input[type=number], input[type=date], input[type=month], input[type=week],
+input[type=datetime-local], input[type=time], input[type=color], input[type=range], textarea {
+	width: 600px;
+	height: 40px;
+	padding-left: 15px;
+	font-style: italic;
+	border: solid 1px #dfdfdf;
+	box-sizing: border-box;
+}
+
+textarea {
+	overflow: auto;
+	resize: none;
+}
+
+input[type=date], input[type=month], input[type=week], input[type=datetime-local], input[type=time],
+input[type=color], input[type=range] {
+	width: 350px;
+}
+
+select {
+	width: 350px;
+	font-size: 16px;
+	padding: 10px;
+	border: solid 1px #dfdfdf;
+	box-sizing: border-box;
+}
+
+textarea:focus, input:focus, select:focus {
+	font-style: normal;
+	outline: solid 1px #bfbfbf;
+}
+
+textarea:disabled; input:disabled, select:disabled {
+	background-color: #dfdfdf;
+}
+
+.is-error, input:invalid {
+	outline: solid 1px #a52727; 
+}
+
+.is-valid {
+	outline: solid 1px #409b98;
+}
+
+textarea {
+	height: 185px
+}
