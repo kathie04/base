@@ -1,7 +1,13 @@
 body {
-	font-family: "Open Sans", sans serif;
+	font-family: "Arial", serif;
 	font-size: 12px;
+	line-height: 1.42;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", sans-serif;
+}
+
 
 h1 {
 	font-size: 26px;
@@ -25,14 +31,18 @@ h5, h6 {
 
 a {
 	color: #0f7e96;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #024f60;
+	text-decoration: underline;
 }
 
 blockquote {
 	font-style: italic;
+	border-left: solid 4px #dfdfdf;
+	padding-left: 14px;
 }
 
 ul {
@@ -47,8 +57,6 @@ ul > li:before {
 
 ul ul > li:before {
 	color: #409b98;
-	content:"▪";
-	padding-right: 10px;
 }
 
 table {

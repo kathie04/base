@@ -45,8 +45,12 @@ textarea:disabled; input:disabled, select:disabled {
 	outline: solid 1px #a52727; 
 }
 
-.is-valid {
+.is-valid, input:valid {
 	outline: solid 1px #409b98;
+}
+
+input:valid:focus {
+	outline: solid 1px #bfbfbf;
 }
 
 textarea {
